@@ -1,6 +1,4 @@
-*.unityweb filter=lfs diff=lfs merge=lfs -text
-*.data filter=lfs diff=lfs merge=lfs -text
-*.wasm application/wasm
-*.data application/octet-stream
-*.unityweb application/octet-stream
-*.js text/javascript
+# Unity WebGL build files - stored as regular binaries (not LFS) for GitHub Pages compatibility
+*.wasm binary
+*.data binary
+*.unityweb binary
